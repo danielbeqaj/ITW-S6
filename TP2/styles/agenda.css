@@ -1,0 +1,80 @@
+@import url("communs.css");
+
+section{
+    display: grid;
+    grid-row-gap: 5px;
+}
+
+#table1,#table1 thead,#table1 th,#table1 td{
+    table-layout: fixed;
+    width: 150px;
+    height: 50px;
+    border: black 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#table1{
+    background-color: var(--couleur-6);
+}
+
+#table2{
+    display: grid;
+}
+
+#table2 tr td:nth-child(2n+1){
+    border: 1px solid;
+    width: 20px;
+}
+
+thead{
+    background-color: var(--couleur-0);
+}
+
+thead > tr > th {
+    color: var(--couleur-6);
+  }
+
+tbody{
+    font-weight: 550;
+}
+
+.algo{
+    background-color:#feff65 ;
+}
+
+.anglais{
+    background-color:#fd9b64;
+}
+
+.bdd{
+    background-color:#feccff;
+}
+
+.gl{
+    background-color:#fd66cd;
+}
+
+.progra{
+    background-color: #99ff99;
+}
+
+.techno{
+    background-color:#009901;
+}
+
+.sport{
+    background-color:#35cc33;
+}
+
+.sys{
+    background-color:#d14719;
+}
+
+.res{
+    background-color: #6665ff;
+}
+
+#theblankcase{
+    background-color:#d3d3d3;
+}

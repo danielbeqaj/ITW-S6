@@ -1,0 +1,35 @@
+@import url("styles2.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: beige;
+}
+
+#conteneur {
+  width: 600px;
+  height: 380px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.bloc {
+  border: 10px solid #666666;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.bloc h2 {
+  font-size: 80px;
+  font-family: verdana;
+  text-align: center;
+  color: #666666;
+}

@@ -1,0 +1,62 @@
+@import url("communs.css");
+
+h1 {
+  color: var(--couleur-6);
+}
+
+body {
+  background-color: var(--couleur-0);
+}
+
+.barre-de-menu {
+  background-color: var(--couleur-6);
+}
+
+.barre-de-menu > li > a {
+  color: var(--couleur-1);
+}
+
+.barre-de-menu > li > a:hover {
+  background-color: var(--couleur-2);
+  color: var(--couleur-6);
+}
+
+.barre-de-menu > li > a.actuel {
+  border-color: var(--couleur-1);
+}
+
+#gallerie {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#gallerie > .img {
+  --margin: 10px;
+  --padding: 10px;
+  --img-per-line: 5;
+  margin: var(--margin);
+  padding: var(--padding);
+  color: var(--couleur-0);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  background-color: var(--couleur-6);
+  width: calc(
+    100% / var(--img-per-line) - 2 * var(--margin) - 2 * var(--padding)
+  );
+}
+
+#gallerie > .img img {
+  border: 1px solid #000;
+  filter: grayscale(1);
+}
+
+#gallerie > .img:hover img {
+  filter: none;
+}
+
+#gallerie > .img > .desc {
+  text-align: center;
+  font-size: smaller;
+}

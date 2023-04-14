@@ -1,0 +1,32 @@
+
+table{
+    border: 10px solid #d0d0ff;
+    padding: 10px;
+    border-collapse: separate;
+    border-spacing: 0px 1px;
+}
+
+table tr th{
+    font-family:Tahoma;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+
+thead tr th,tbody tr:last-child th{
+    font-weight: bold;
+}
+
+tbody tr:last-child th{
+    border-top: 2px solid black;
+}
+
+/*last three columns*/
+tr th~th~th~th{
+    text-align: center;
+}
+
+/*first three columns*/
+tr th:not(tr th~th~th~th){
+    text-align: left;
+}

@@ -1,0 +1,13 @@
+@import url("communs.css");
+
+main {
+  text-align: center;
+}
+
+.actions > a {
+  margin: 10px;
+}
+
+.actions > a > img {
+  height: 50px;
+}

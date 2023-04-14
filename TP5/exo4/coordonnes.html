@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Adresse client</title>
+        <style>
+            table{
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            .firstspan {position: relative; top: 8px; padding: 0 13px;}
+            span span {background-color: white;font-weight:bold;}
+
+            input[type="submit"]{
+                border-radius: 10px ;
+                border-width: 1px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form method="POST" action="confirmation.php"> 
+           <span class="firstspan"><span>Saisissez vos coordonnés</span></span>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nom">Nom:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="fname" name="nom">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prenom">Prénom:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="prenom">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="adresse">Adresse:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="adresse">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ville">Ville:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="ville">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="codepostal">Code postal:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lname" name="codepostal">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>CONFIRMER</label>
+                    </td>
+                    <td>
+                    <input type="submit" value="ENVOI">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+
+    </body>
+    
+
+</html>

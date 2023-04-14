@@ -1,0 +1,76 @@
+@import url("communs.css");
+
+#agenda {
+  border-collapse: collapse;
+}
+
+#agenda thead {
+  background-color: var(--couleur-0);
+}
+
+#agenda tbody {
+  background-color: var(--couleur-6);
+}
+
+#agenda th {
+  color: white;
+  width: calc(100% / 6);
+  border: 1px solid black;
+}
+
+#agenda td {
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#separateur {
+  background-color: lightgray;
+}
+
+.ang {
+  background-color: #ff9966;
+}
+
+.bases {
+  background-color: #ffccff;
+}
+
+.syst {
+  background-color: #d14719;
+}
+
+.web {
+  background-color: #009900;
+}
+
+.prog {
+  background-color: #99ff99;
+}
+
+.algo {
+  background-color: #ffff66;
+}
+
+.sport {
+  background-color: #33cc33;
+}
+
+.reseaux {
+  background-color: #6666ff;
+}
+
+.genie {
+  background-color: #ff66cc;
+}
+
+.legende {
+  margin-top: 20px;
+}
+
+#legende td:nth-child(odd) {
+  /* aussi #legende td:nth-child(2n+1) et #legende td:empty */
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+}

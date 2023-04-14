@@ -1,0 +1,96 @@
+:root {
+    --color1: #4c263d;
+    --color2: #665452;
+    --color3: #b29c98;
+    --color4: #ffeae6;
+  }
+  
+  body {
+    margin: 0;
+    font-size: 21px;
+    font-family: monospace;
+    background: var(--color1);
+    color: var(--color4);
+  }
+  
+  header {
+    padding: 6px;
+    margin: 12px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 6px;
+    text-transform: uppercase;
+  }
+  
+  p {
+    margin: 12px 0;
+  }
+  
+  main {
+    max-width: 600px;
+    background: var(--color4);
+    color: var(--color1);
+    padding: 0 18px;
+    margin: 6px auto;
+    border: 6px solid var(--color2);
+    text-align: center;
+  }
+  
+  .essai label {
+    display: none;
+  }
+  
+  form input[type="number"],
+  form input[type="text"] {
+    /*
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    */
+    border: 3px solid var(--color2);
+    background: var(--color3);
+    color: var(--color4);
+    padding: 3px 6px;
+    font-size: inherit;
+    text-align: center;
+    min-width: 50%;
+  }
+  
+  form input[type="number"]::-webkit-outer-spin-button,
+  form input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  form input[type="number"]:focus,
+  form input[type="text"]:focus {
+    border-color: var(--color1);
+    background: var(--color4);
+    color: var(--color1);
+    outline: none;
+  }
+  
+  form button {
+    border: none;
+    background: var(--color2);
+    border: solid 3px var(--color4);
+    color: var(--color4);
+    padding: 6px 9px;
+    font-size: inherit;
+    margin-left: 6px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: var(--color3);
+  }
+  
+  form button:first-of-type {
+    margin-left: 0;
+  }
+  
+  form button:focus {
+    outline: none;
+    border-color: var(--color1);
+  }

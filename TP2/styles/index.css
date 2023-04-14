@@ -1,0 +1,11 @@
+@import url("communs.css");
+
+img{
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+}
+
+section{
+    text-align: center;
+}

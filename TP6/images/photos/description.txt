@@ -1,0 +1,8 @@
+photo1.jpg : Audrey et Noria à l'entrainement
+photo2.jpg : Traineau au Yukon
+photo3.jpg : Elodie à Arts Umbrella
+image1.jpg : Une photo de fleur
+image2.jpg : Une photo de feuilles
+image3.jpg : Une photo d'herbe
+image4.jpg : Une autre photo d'herbe
+image5.jpg : Encore une photo d'herbe

@@ -1,0 +1,75 @@
+@import url("communs.css");
+
+body{
+    background-color:var(--couleur-0);
+}
+
+.barre-de-menu{
+    background-color:var(--couleur-6);
+}
+
+.barre-de-menu>li>a.actuel{
+    color: var(--couleur-0);
+    border-bottom-color: var(--couleur-0);
+}
+
+/* Optional I guess
+nav>.barre-de-menu > li > a:hover {
+    background-color: var(--couleur-0);
+    color: var(--couleur-6);
+  }
+*/
+
+main{
+    background-color:var(--couleur-0);
+}
+
+h1{
+    color: var(--couleur-6);
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    text-align: center;
+}
+
+#row1,#row2{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+div>a{
+    flex: 1 1 0px;
+    background-color:var(--couleur-6);
+    padding: 10px;
+    border-radius: 10px;
+    width:min-content;
+}
+
+img{
+    border: black 2px solid;
+    border-radius: 5px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+#pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7,#pic8{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
